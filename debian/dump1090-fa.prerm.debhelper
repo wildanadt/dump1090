@@ -1,0 +1,5 @@
+# Automatically added by dh_systemd_start/13.2~bpo10+1
+if [ -d /run/systemd/system ]; then
+	deb-systemd-invoke stop 'dump1090-fa.service' >/dev/null || true
+fi
+# End automatically added section

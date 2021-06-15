@@ -1,0 +1,13 @@
+Package: dump1090-fa
+Version: 5.0
+Architecture: armhf
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 29402
+Depends: libc6 (>= 2.28), libncurses6 (>= 6), librtlsdr0, libtinfo6 (>= 6), adduser, lighttpd
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs
+ Networked Aviation Mode S / ADS-B decoder/translator with support
+ for RTL-SDR, BladeRF, HackRF, and LimeSDR software defined radio USB
+ device support.

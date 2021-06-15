@@ -1,0 +1,12 @@
+Package: dump1090-fa-dbgsym
+Source: dump1090-fa
+Version: 5.0
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 749
+Depends: dump1090-fa (= 5.0)
+Section: debug
+Priority: optional
+Description: debug symbols for dump1090-fa
+Build-Ids: 1593734e5a61c737821e21f0af62447f5c5afb0f 3852f1a83fc58c0c7d3098b76b6e292f41ba7d6b 4c20a549fb66c8a442c5f6aae98bafd6c77972a5
